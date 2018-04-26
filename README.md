@@ -3,7 +3,7 @@
 Live Training
 =============
 
-This is an empty repo for to initialize an R project for trainging courses organized by [Lander Analytics](www.landeranalytics.com).
+This is an empty repo for to initialize an R project for training courses organized by [Lander Analytics](www.landeranalytics.com).
 
 Packages
 ========
@@ -11,10 +11,11 @@ Packages
 To get started run the following code to install the latest version of the necessary packages.
 
 ``` r
-packages <- c('coefplot','DBI', 'dbplyr', 'doParallel', 'foreach', 
-              'ggthemes', 'jsonlite', 'leaflet', 'odbc', 'rmarkdown', 
-              'rprojroot', 'RSQLite', 'rvest', 'tidyverse', 'threejs', 
-              'usethis', 'UsingR', 'XML', 'xml2')
+packages <- c('caret', 'coefplot','DBI', 'dbplyr', 'doParallel', 'foreach', 
+              'ggthemes', 'glmnet', 'jsonlite', 'leaflet', 'odbc', 
+              'recipes', 'rmarkdown', 'rprojroot', 'RSQLite', 'rvest', 
+              'tidyverse', 'threejs', 'usethis', 'UsingR', 'xgboost', 'XML', 
+              'xml2')
 install.packages(packages)
 ```
 
@@ -31,7 +32,7 @@ After that runs successfully you will have a new folder holding the R project th
 
 <img src="images/ProjectFolder.png" width="859" />
 
-Either double-click the file called LearningR.Rproj or run the following line of code.
+If a new project did not open automatically, either double-click the file called LearningR.Rproj or run the following line of code.
 
 ``` r
 rstudioapi::openProject(newProject)

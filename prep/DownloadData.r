@@ -53,7 +53,25 @@ download.file(
     'https://query.data.world/s/GCIO0yVrO50N130s_CZNK50ujmqrE3',
     destfile=file.path(dataDir, 'visited.csv'))
 
+# manhattan_Test.rds
+download.file(
+    'https://query.data.world/s/tkfdrcapfsw7ihodbjzsdywz7povce',
+    destfile=file.path(dataDir, 'manhattan_Test.rds'),
+    mode='wb')
+
 # manhattan_Train.csv
 download.file(
     'https://query.data.world/s/zGvNwNJbY2470sjsVxYFstm426SEf1',
     destfile=file.path(dataDir, 'manhattan_Train.csv'))
+
+# manhattan_Train.rds
+download.file(
+    'https://query.data.world/s/t6nblljn7a5ei6ghdqzkhfynn7iu5b',
+    destfile=file.path(dataDir, 'manhattan_Train.rds'),
+    mode='wb')
+
+# manhattan_Validate.rds
+download.file(
+    'https://query.data.world/s/4tfwbez3ul5ap7apg2ffgltfpzmifm',
+    destfile=file.path(dataDir, 'manhattan_Validate.rds'),
+    mode='wb')
